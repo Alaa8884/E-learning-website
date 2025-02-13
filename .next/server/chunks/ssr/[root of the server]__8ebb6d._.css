@@ -504,6 +504,11 @@ body {
   z-index: 1;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ml-1 {
   margin-left: .25rem;
 }
@@ -548,6 +553,10 @@ body {
   height: 1rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -558,6 +567,18 @@ body {
 
 .h-\[1px\] {
   height: 1px;
+}
+
+.h-\[54px\] {
+  height: 54px;
+}
+
+.h-\[55px\] {
+  height: 55px;
+}
+
+.h-\[99px\] {
+  height: 99px;
 }
 
 .h-\[var\(--radix-navigation-menu-viewport-height\)\] {
@@ -584,12 +605,28 @@ body {
   width: 1rem;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .w-9 {
   width: 2.25rem;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
 .w-\[1px\] {
   width: 1px;
+}
+
+.w-\[214px\] {
+  width: 214px;
+}
+
+.w-\[54px\] {
+  width: 54px;
 }
 
 .w-full {
@@ -598,6 +635,10 @@ body {
 
 .w-max {
   width: max-content;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .max-w-max {
@@ -651,6 +692,18 @@ body {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-\[23px\] {
+  gap: 23px;
+}
+
+.gap-\[26px\] {
+  gap: 26px;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
 }
 
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
@@ -747,16 +800,17 @@ body {
   background-color: hsl(var(--destructive));
 }
 
-.bg-muted {
-  background-color: hsl(var(--muted));
-}
-
 .bg-popover {
   background-color: hsl(var(--popover));
 }
 
 .bg-primary {
   background-color: hsl(var(--primary));
+}
+
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
 }
 
 .bg-secondary {
@@ -786,9 +840,19 @@ body {
   padding-right: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.px-\[132px\] {
+  padding-left: 132px;
+  padding-right: 132px;
 }
 
 .py-0\.5 {
@@ -811,12 +875,25 @@ body {
   padding-bottom: 1rem;
 }
 
+.py-\[14px\] {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
 .pt-0 {
   padding-top: 0;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-left {
@@ -1004,7 +1081,7 @@ body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Be Vietnam Pro, serif;
 }
 
 .hover\:bg-accent:hover {

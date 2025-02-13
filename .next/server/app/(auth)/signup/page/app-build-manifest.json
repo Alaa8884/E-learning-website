@@ -1,8 +1,9 @@
 {
   "pages": {
     "/(auth)/signup/page": [
-      "static/chunks/[root of the server]__8ebb6d._.css",
-      "static/chunks/_7cb389._.js",
+      "static/chunks/[root of the server]__d7e38f._.css",
+      "static/chunks/node_modules_9a7b2b._.js",
+      "static/chunks/src_30f60a._.js",
       "static/chunks/src_app_layout_tsx_61af54._.js",
       "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
       "static/chunks/node_modules_next_dist_compiled_107ce8._.js",

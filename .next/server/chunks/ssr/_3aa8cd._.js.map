@@ -2,7 +2,7 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://F%3A/Front-end-development/react-project/my_project/e-learning_website/src/app/contact/page.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nexport default function ContactUs() {\r\n  return (\r\n    <div>page</div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBAAI;;;;;;AAET"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://F%3A/Front-end-development/react-project/my_project/e-learning_website/src/app/contact/page.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nexport default function ContactUs() {\r\n  return (\r\n    <div>Contact</div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBAAI;;;;;;AAET"}},
     {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
     {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
     {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
