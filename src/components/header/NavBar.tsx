@@ -10,10 +10,6 @@ import { buttonVariants } from "../ui/button";
 import NavBarLinks from "./NavBarLinks";
 import MobileNavBar from "./MobileNavBar";
 
-
-
-
-
 function NavBar() {
   const path = usePathname();
 
@@ -23,7 +19,7 @@ function NavBar() {
         <div className="flex items-center justify-center rounded-lg bg-primary sm:h-10 md:size-[45px] lg:size-[54px]">
           <Link href={"/"}>
             <Image
-              src={"/assets/shape-17.png"}
+              src={"/assets/logo.png"}
               alt="logo"
               width={32.5}
               height={32.5}
@@ -31,8 +27,8 @@ function NavBar() {
             />
           </Link>
         </div>
-       <NavBarLinks/>
-</div>
+        <NavBarLinks />
+      </div>
       <div className="flex h-[45px] items-center gap-5 lg:h-[55px]">
         <Link
           href="/signup"
@@ -61,10 +57,10 @@ function NavBar() {
         >
           Login
         </Link>
-       <MobileNavBar/>
+        <MobileNavBar />
       </div>
     </nav>
-  )
+  );
 }
 
 export default NavBar;
