@@ -46,7 +46,7 @@ function NavBarLinks() {
                 <NavigationMenuLink
                   className={cn(
                     navigationMenuTriggerStyle(),
-                    "w-auto md:h-[45px] md:px-5 md:py-3 md:text-sm lg:h-[55px] lg:px-6 lg:py-[14px] lg:text-base",
+                    "w-auto md:h-[45px] md:px-5 md:py-3 md:text-sm lg:h-[55px] lg:px-4 lg:py-[14px] lg:text-base",
                   )}
                   active={path.includes(item.href)}
                 >

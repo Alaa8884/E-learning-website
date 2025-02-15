@@ -6,8 +6,8 @@ import { buttonVariants } from "../ui/button";
 
 function HeroSection() {
   return (
-    <div className="flex items-center justify-center">
-      <div className="mt-[50px] flex h-[311px] flex-col items-center justify-center gap-[50px] lg:my-[60px] lg:h-[290px] lg:gap-[60px]">
+    <div className="flex flex-col items-center justify-center">
+      <div className="mb-[50px] mt-[50px] flex h-[311px] flex-col items-center justify-center gap-[50px] lg:my-[60px] lg:h-[290px] lg:gap-[60px]">
         <div className="flex h-[212px] w-auto flex-col items-center justify-center gap-4 lg:h-[175px] lg:gap-5">
           {" "}
           <div className="relative flex h-[76px] items-center justify-center gap-[10px] rounded-xl bg-white p-[14px] lg:h-[90px] lg:py-[14px] lg:pl-[20px] lg:pr-[30px]">

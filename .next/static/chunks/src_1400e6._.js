@@ -288,7 +288,7 @@ function NavBarLinks() {
                             legacyBehavior: true,
                             passHref: true,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$navigation$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NavigationMenuLink"], {
-                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$navigation$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["navigationMenuTriggerStyle"])(), "w-auto md:h-[45px] md:px-5 md:py-3 md:text-sm lg:h-[55px] lg:px-6 lg:py-[14px] lg:text-base"),
+                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$navigation$2d$menu$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["navigationMenuTriggerStyle"])(), "w-auto md:h-[45px] md:px-5 md:py-3 md:text-sm lg:h-[55px] lg:px-4 lg:py-[14px] lg:text-base"),
                                 active: path.includes(item.href),
                                 children: item.title
                             }, void 0, false, {
@@ -686,7 +686,7 @@ function NavBar() {
     _s();
     const path = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-        className: "flex h-[73px] items-center justify-between px-0 py-4 md:h-[81px] md:px-[60px] md:pb-5 md:pt-4 lg:h-[99px] lg:px-[132px] lg:pb-6 lg:pt-5",
+        className: "flex h-[73px] items-center justify-between px-0 py-4 md:h-[81px] md:px-[60px] md:pb-5 md:pt-4 lg:h-[99px] lg:px-[80px] lg:pb-6 lg:pt-5",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex items-center md:h-[45px] md:gap-[5px] lg:h-[55px] lg:gap-[50px]",
