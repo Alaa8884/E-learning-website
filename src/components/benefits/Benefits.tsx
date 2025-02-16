@@ -2,7 +2,6 @@ import React from "react";
 import HeadingSection from "../ui/HeadingSection";
 import BenefitsCard from "./BenefitsCard";
 
-
 export default function Benefits() {
   return (
     <section className="mx-auto">

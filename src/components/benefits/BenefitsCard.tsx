@@ -47,39 +47,14 @@ const benefitsInfo: InformationType[] = [
 function BenefitsCard() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center gap-5 md:h-[370px] md:flex-row">
-        { benefitsInfo.slice(0, 3).map((item) => 
-          <div
-            key={ item.id }
-            className="flex h-[293px] flex-col gap-[30px] rounded-lg bg-btnWhite p-[30px] md:h-[370px] md:w-[420px]"
-          >
-          <h2 className="text-end text-[50px] font-bold">0{ item.id }</h2>
-          <div>
-            <h3 className="text-xl font-semibold">{ item.title }</h3>
-            <p className="text-gray text-sm">{ item.desc }</p>
-          </div>
-          <Link
-            href={ item.beneFitLink }
-            className={ cn(
-              buttonVariants({
-                variant: "outline",
-              }),
-              "flex size-[54px] items-center justify-center self-end rounded-md p-[14px]",
-            ) }
-          >
-            <ArrowUpRight className="text-primary" size={ 26 } />
-          </Link>
-        </div>
-        ) }
-      </div>
-      <div className="mt-5 flex flex-col items-center justify-center gap-5 md:h-[370px] md:flex-row">
-        {benefitsInfo.slice(3, 6).map((item) => (
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+        {benefitsInfo.map((item) => (
           <div
             key={item.id}
-            className="flex h-[293px] flex-col gap-[30px] rounded-lg bg-btnWhite p-[30px] md:h-[370px] md:w-[400px]"
+            className="flex flex-col gap-[30px] rounded-lg bg-btnWhite p-[30px]"
           >
             <h2 className="text-end text-[50px] font-bold">0{item.id}</h2>
-            <div>
+            <div className="h-[82px] md:h-[112px]">
               <h3 className="text-xl font-semibold">{item.title}</h3>
               <p className="text-gray text-sm">{item.desc}</p>
             </div>
@@ -89,10 +64,10 @@ function BenefitsCard() {
                 buttonVariants({
                   variant: "outline",
                 }),
-                "block size-[54px] self-end rounded-md p-[14px]",
+                "flex size-[45px] items-center justify-center self-end rounded-md p-[14px]",
               )}
             >
-              <ArrowUpRight className="text-primary" size={26} />
+              <ArrowUpRight className="text-primary" size={30} />
             </Link>
           </div>
         ))}
