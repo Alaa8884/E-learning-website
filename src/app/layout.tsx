@@ -25,7 +25,6 @@ export default function RootLayout({
       <body className={`${beVietnamPro.variable} antialiased`}>
         <Header />
         <main className="container mx-auto px-2">{children}</main>
-
         <Footer />
       </body>
     </html>

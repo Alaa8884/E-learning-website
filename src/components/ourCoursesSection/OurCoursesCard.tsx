@@ -1,10 +1,10 @@
-import Image from "next/image";
 import React from "react";
-import courseData from "../../../public/data/courseData";
-import { TCourse } from "@/types/course";
+import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "../ui/button";
+import courseData from "../../../public/data/courseData";
+import { TCourse } from "@/types/course";
 
 function OurCoursesCard() {
   return (

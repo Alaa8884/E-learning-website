@@ -15,7 +15,7 @@ function HeadingSection({
   buttonLink,
 }: HeadingSectionProps) {
   return (
-    <div className="flex flex-col gap-5 my-10 md:my-[60px] md:flex-row md:gap-[250px] lg:gap-[300px]">
+    <div className="my-10 flex flex-col gap-5 md:flex-row md:gap-[250px] lg:my-[60px] lg:gap-[300px] xl:my-[80px]">
       <div className="flex flex-col gap-1 lg:gap-[6px]">
         <h1 className="text-[28px] font-semibold md:text-[38px] lg:text-5xl">
           {title}

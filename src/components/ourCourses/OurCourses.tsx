@@ -1,6 +1,6 @@
 import React from "react";
 import HeadingSection from "../ui/HeadingSection";
-import OurCoursesCard from "./OurCoursesCard";
+import OurCoursesCard from "../ourCoursesSection/OurCoursesCard";
 
 function OurCourses() {
   return (

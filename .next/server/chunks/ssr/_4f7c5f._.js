@@ -164,37 +164,37 @@ const benefitsInfo = [
         id: "1",
         title: "Flexible Learning Schedule",
         desc: "Fit your coursework around your existing commitments and obligations.",
-        beneFitLink: "/"
+        beneFitLink: "/benefit"
     },
     {
         id: "2",
         title: "Expert Instruction",
         desc: "Learn from industry experts who have hands-on experience in design and development.",
-        beneFitLink: "/"
+        beneFitLink: "/benefit"
     },
     {
         id: "3",
         title: "Diverse Course Offerings",
         desc: "Explore a wide range of design and development courses covering various topics.",
-        beneFitLink: "/"
+        beneFitLink: "/benefit"
     },
     {
         id: "4",
         title: "Updated Curriculum",
         desc: "Access courses with up-to-date content reflecting the latest trends and industry practices.",
-        beneFitLink: "/"
+        beneFitLink: "/benefit"
     },
     {
         id: "5",
         title: "Practical Projects and Assignments",
         desc: "Develop a portfolio showcasing your skills and abilities to potential employers.",
-        beneFitLink: "/"
+        beneFitLink: "/benefit"
     },
     {
         id: "6",
         title: "Interactive Learning Environment",
         desc: "Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding.",
-        beneFitLink: "/"
+        beneFitLink: "/benefit"
     }
 ];
 function BenefitsCard() {
