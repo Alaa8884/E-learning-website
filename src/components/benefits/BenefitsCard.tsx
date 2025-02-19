@@ -1,9 +1,9 @@
-import { ArrowUpRight } from "lucide-react";
-import Link from "next/link";
 import React from "react";
-import { InformationType } from "types/information";
-import { buttonVariants } from "../ui/button";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { ArrowUpRight } from "lucide-react";
+import { buttonVariants } from "../ui/button";
+import { InformationType } from "types/information";
 
 const benefitsInfo: InformationType[] = [
   {

@@ -1,9 +1,10 @@
-import React from 'react'
-import HeadingSection from '../ui/HeadingSection';
+import React from "react";
+import HeadingSection from "../ui/HeadingSection";
+import OurCoursesCard from "./OurCoursesCard";
 
 function OurCourses() {
   return (
-    <section className="mx-auto">
+    <section className="mx-auto flex flex-col gap-10 md:gap-[60px] xl:gap-20">
       <HeadingSection
         title={"Our Courses"}
         description={
@@ -11,8 +12,9 @@ function OurCourses() {
         }
         buttonLink={"/courses"}
       />
+      <OurCoursesCard />
     </section>
   );
 }
 
-export default OurCourses
+export default OurCourses;
